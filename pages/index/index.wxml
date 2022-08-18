@@ -1,6 +1,6 @@
 <view class="indexContainer"> 
   <image class="avatarURL" src="/static/images/IU.png"></image>
-  <text class="userName">xd</text>
+  <text class="userName">{{msg}}</text>
   <view>
     <text class="slogan">Hello World</text>
   </view>

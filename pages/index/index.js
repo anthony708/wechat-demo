@@ -5,14 +5,20 @@ Page({
    * Page initial data
    */
   data: {
-
+      msg:'init data'
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad(options) {
-
+    console.log('onload')
+    // this表示当前页面的实例对象
+    console.log(this)
+    this.setData({
+      msg: 'new data'
+    })
+    console.log(this.data.msg)
   },
 
   /**
